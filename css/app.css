@@ -501,7 +501,7 @@
     font-size: 1em;
     padding: 0.5em 2em;
     border-radius: 3em;
-    
+    border: none;
     background-color: #354463;
     font-weight: 300;
      color: #C1F7D5;
@@ -718,7 +718,22 @@
     }
     .subscribe-form-input{
       width: 16em;
+      border: none;
     }
+
+     
+    .subscribe-form-btn{
+      margin-left: 0em; 
+      font-size: 1em;
+      padding: 0.5em 2em;
+      border-radius: 3em;
+      border: none;
+      background-color: #354463;
+      font-weight: 300;
+       color: #C1F7D5;
+       box-shadow: none;
+    }
+  
      
 
      /* Subscribe section ends her */
@@ -952,11 +967,11 @@
     }
     .subscribe-form-input{
      
-      width: 5em;
+      width: 6em;
     }
     .subscribe-form-btn{
-      padding: 0.4em 0.8em;
-      margin-left: 0em;
+      padding: 0.2em 0.4em;
+     
     }
      /* Subscribe section ends her */
 
