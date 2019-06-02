@@ -19,6 +19,8 @@ input, select{
   border: none;
   color: white;
   border-bottom: 2px solid #C1F7D5;
+  
+ 
 }
 label{
   padding-bottom: 0.5em;
@@ -60,7 +62,7 @@ header{
 .your-information{
   display: grid;
   grid-template-columns: 1fr;
-  grid-row-gap: 1.5em;
+  grid-row-gap: 2em;
 }
 
 .form-input-name{
@@ -83,7 +85,7 @@ header{
 .payment-information{
   display: grid;
   grid-template-columns: 1fr;
-   grid-row-gap: 1.5em;
+   grid-row-gap: 2em;
 }
 
 
@@ -147,6 +149,31 @@ footer{
   padding-bottom: 0.5em;
 }
 
+/* Animation  */
+  .animate{
+  position: relative;
+}
+
+.label-animate{
+  position: absolute;
+  top: 10px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+input:focus ~ label{
+ top: -12px;
+}
+
+ input:valid ~ label, input:focus ~ label{
+   top:-12px;
+ }
+
+ input:focus, input:valid{
+   border-bottom: 2px solid rgb(30, 138, 45);
+ }
+
+ 
+/* Animation */
 
 /* Mobile view ends here */
 

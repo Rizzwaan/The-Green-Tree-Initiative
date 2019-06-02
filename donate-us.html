@@ -27,54 +27,55 @@
                 
                     <div class="form-input-name">
                        
-                       <div>
-                          <label for="first-name">FIRST NAME</label> <br>
-                          <input type="text" placeholder="First Name">
+                       <div class="animate">
+                          <input type="text" required ><br>
+                          <label for="first-name"  class="label-animate">FIRST NAME</label> 
                        </div>
-                       <div>
-                          <label for="last-name">LAST NAME</label> <br>
-                          <input type="text" placeholder="Last Name">
+                       <div class="animate"  >
+                          <input type="text" required  > <br>
+                          <label for="last-name" class="label-animate">LAST NAME</label>
                        </div>
                     </div>
-                    <div class="form-address">
-                      <label for="address">STREET ADDRESS</label><br>
-                      <input type="text"  placeholder="Street Address">
+                    <div class="form-address animate">
+                      <input type="text" required  ><br>
+                      <label for="address"  class="label-animate">STREET ADDRESS</label>
                     </div>
                     <div class="form-city-name">
-                       <div>
-                         <label for="city">CITY</label><br>
-                         <input type="text" placeholder="City">
+                       <div class="animate">
+                         <input type="text" required  ><br>
+                         <label for="city" class="label-animate" >CITY</label>
                        </div>
                        <div>
-                         <label for="state">STATE</label><br>
+                         
                          <select name="state" id="state-name">
                            <option value="karnataka">Karnataka</option>
                            <option value="telangana">Telangana</option>
                            <option value="maharashtra">Maharashtra</option>
                            <option value="bihar">Bihar</option>
                            <option value="kerla">Kerla</option>
-                         </select>
+                         </select> 
+                         <!-- <label for="state" class="label-animate"  >STATE</label> -->
                        </div>
-                       <div>
-                         <label for="zip-code">ZIP CODE</label> <br>
-                         <input type="number" placeholder="Zip">
+                       <div class="animate">
+                         <input type="number" required > <br>
+                         <label for="zip-code"  class="label-animate">ZIP CODE</label>
                        </div>
                     </div>
-                    <div class="form-emai-address" >
-                      <label for="form-mail">EMAIL</label> <br>
-                      <input type="email"  placeholder="Email">
+                    <div class="form-emai-address animate" >
+                      <input type="email" required  > <br>
+                      <label for="form-mail"  class="label-animate">EMAIL</label>
                     </div>
                  
               </div>
             <div class="payment-information">
               <h2>Payment information</h2>
-              <div class="credit-card">
-                 <label for="credit-card-info">CREDIT CARD</label><br>
-                 <input type="number" placeholder="Credit Card Number" >
+              <div class="credit-card animate">
+                <input type="number" required ><br>
+                 <label for="credit-card-info"  class="label-animate">CREDIT CARD</label>
                </div>
                <div class="card-expiration-date">
-                 <div class="expiration-date">
-                    <label for="exp-date">EXPIRATION DATE</label><br>
+                 <div class="expiration-date animate">
+                     <label for="exp-date"  class="label-animate">EXPIRATION DATE</label><br>
                     <div class="year-month">
                       <input class="small"  type="number" 
                       name="month" placeholder="MM">
@@ -82,8 +83,8 @@
                     </div>
 
                  </div>
-                 <div class="security-code">
-                   <label for="credit-c-secure">SECURITY</label> <br>
+                 <div class="security-code animate">
+                   <label for="credit-c-secure" class="label-animate">SECURITY</label> <br>
                    <input class="small"  type="number" name="secure-code" placeholder="CVC">
                  </div>
                </div>
