@@ -796,9 +796,9 @@
   }
 
   .nav-items{
-   
+    display: grid;
     grid-row-gap: 1em;
-   
+     justify-self: center;
     grid-column: 2/3;
     grid-row: 1/2;
     text-align: left;
